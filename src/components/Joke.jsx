@@ -11,7 +11,6 @@ const Joke = (props) => {
     <div className='joke'>
       <h1>{props.setup}</h1>
       <button onClick={handleClick}>{props.punchline}</button>
-      <hr />
     </div>
   )
 }
