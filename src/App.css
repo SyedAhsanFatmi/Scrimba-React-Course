@@ -1,6 +1,8 @@
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  color: rgb(19, 9, 9);
+  margin: 0;
+  font-family: Inter;
 }
 
 h1 {
