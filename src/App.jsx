@@ -1,21 +1,13 @@
-import Header from "./components/Header"
-import Entry from "./components/Entry"
-import entry from "../src/data/data"
+import Header from "./components/Header";
+import Main from "./components/Main";
+
 
 export default function App() {
 
-  const entryelements = entry.map((entrydata) => {
-    return <Entry 
-    key={entrydata.id}
-    {...entrydata}
-    />
-  })
     return (
         <>
-            <Header />
-            <main className="container">
-                {entryelements}
-            </main>
+        <Header />
+        <Main />  
         </>
     )
 }

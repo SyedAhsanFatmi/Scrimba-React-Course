@@ -1,78 +1,69 @@
-html, body {
-  margin: 0;
-  background-color: rgb(96, 104, 97);
+header > img {
+  max-width: 50px;
+}
+.header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  background-color: white;
+}
+
+header > h1 {
+  font-weight: 400;
+
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
-  font-family: Inter;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #FAFAF8;
 }
 
-.container {
-  margin: 45px 40px;
+main {
+  padding: 30px 30px 10px;
 }
 
-header {
-  background: #F55A5A;
+.search-form {
   display: flex;
   justify-content: center;
-  align-items: center;
-  color: white;
-  height: 55px;
+  gap: 12px;
+  height: 38px;
 }
 
-article.journal-entry {
-  display: flex;
-  padding: 70px;
+.search-form > input {
+  border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    padding: 9px 13px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    flex-grow: 1;
+    min-width: 150px;
+    max-width: 400px;
 }
 
-article.journal-entry .marker {
-  width: 7px;
-  margin-right: 4px;
+.search-form > button {
+  font-family: Inter, sans-serif;
+    border-radius: 6px;
+    border: none;
+    background-color: #141413;
+    color: #FAFAF8;
+    width: 150px;
+    font-size: 0.875rem;
+    font-weight: 500;
 }
 
-article.journal-entry .main-image-container {
-  width: 125px;
-  height: 168px;
-  overflow: hidden;
-  border-radius: 5px;
-  flex-shrink: 0;
-  margin-right: 19px;
+.search-form > button:hover {
+  background-color: #2b2b25;
 }
 
-article.journal-entry .main-image {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.info-container span.country {
-  text-transform: uppercase;
-  font-size: 0.7rem;
-  margin-right: 12px;
-}
-
-.info-container a {
-  color: #2B283A;
-  font-size: 0.7rem;
-}
-
-.info-container a:visited {
-  color: #918E9B;
-}
-
-.info-container h2.entry-title {
-  margin-top: 7px;
-  margin-bottom: 17px;
-}
-
-.info-container p.trip-dates {
-  font-weight: bold;
-}
-
-.info-container p.entry-text {
-  line-height: 1.5;
-  font-size: 0.8rem;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;  
-  overflow: hidden;
+.search-form > button:before {
+  content: "+";
+  margin-right: 5px;
 }
