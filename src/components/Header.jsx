@@ -3,8 +3,8 @@ import React from 'react'
 const Header = () => {
   return (
     <header className='header'>
-        <img src="../src/assets/chef_icon.png" alt="header" />
-        <h1>Chef Claude</h1>
+      <img src='../src/assets/trollface.png' alt='troll face' />
+      <h1>Meme Generator</h1>
     </header>
   )
 }
