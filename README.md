@@ -1,12 +1,29 @@
-# React + Vite
+# Scrimba's Free "Learn React" Course Projects
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is dedicated to housing all the projects, challenges, and code examples covered in the free plan of Scrimba's excellent "Learn React" course.
 
-Currently, two official plugins are available:
+It serves as a comprehensive reference and portfolio demonstrating mastery of the foundational React concepts taught in the course.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What's Included?
 
-## Expanding the ESLint configuration
+Every major project, coding challenge, and interactive lesson from the free portion of the course has been implemented here. You will find examples ranging from simple static components to more complex stateful applications.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The projects are organized to generally follow the curriculum flow of the course.
+
+## Key Concepts Covered
+
+This repository demonstrates practical application of the core building blocks of modern React development, including:
+
+JSX: Writing component structure using JavaScript XML.
+
+Functional Components: Creating components using modern JavaScript functions.
+
+Props: Passing data into components for dynamic content.
+
+State (useState Hook): Managing component data that changes over time, enabling interactive UIs.
+
+Conditional Rendering: Displaying different elements based on state or props.
+
+Rendering Lists: Using the map() method to efficiently render collections of data.
+
+Basic Forms: Handling user input in forms and updating state.
