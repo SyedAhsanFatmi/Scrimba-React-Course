@@ -1,14 +1,16 @@
-import Fetch from "./components/Fetch";
-import Header from "./components/Header";
-import Main from "./components/Main";
+import Info from "./components/Info";
+import About from "./components/About";
+import Interests from "./components/Interests";
+import Footer from "./components/Footer";
 
 export default function App() {
 
     return (
-        <>
-            <Header />
-            <Main />
-            <Fetch />
-        </>
+        <div className="max-w-xs mx-auto bg-[#1A1B21] text-white rounded-2xl overflow-hidden shadow-lg">
+        <Info />
+        <About />
+        <Interests />
+        <Footer />  
+        </div>
     )
 }
